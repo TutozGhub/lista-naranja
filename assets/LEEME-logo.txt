@@ -1,1 +1,0 @@
-Este proyecto referencia assets/logo.png. Conservá el logo.png que ya existe en tu repositorio dentro de la carpeta assets.
