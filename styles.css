@@ -22,7 +22,6 @@
   --header-height: 72px;
   --transition: 180ms ease;
 }
-
 * {
   box-sizing: border-box;
 }
@@ -51,7 +50,6 @@ img {
   display: block;
   max-width: 100%;
 }
-
 a {
   color: inherit;
 }
@@ -80,7 +78,6 @@ header {
   backdrop-filter: blur(14px);
   -webkit-backdrop-filter: blur(14px);
 }
-
 nav {
   min-height: var(--header-height);
   display: flex;
@@ -108,7 +105,6 @@ nav {
   object-fit: cover;
   box-shadow: 0 4px 14px rgba(84, 52, 14, 0.08);
 }
-
 .links {
   display: flex;
   align-items: center;
@@ -142,7 +138,6 @@ main {
 section {
   padding: 72px 0;
 }
-
 .hero {
   padding: 76px 0 64px;
   background:
@@ -157,7 +152,6 @@ section {
   align-items: center;
   gap: 58px;
 }
-
 .eyebrow {
   display: inline-block;
   margin-bottom: 12px;
@@ -187,7 +181,6 @@ h1 {
 h1 span {
   color: var(--orange-500);
 }
-
 h2 {
   margin-bottom: 14px;
   font-size: clamp(1.85rem, 4vw, 3rem);
@@ -223,7 +216,6 @@ p {
   align-items: center;
   gap: 12px;
 }
-
 .btn {
   display: inline-flex;
   min-height: 48px;
@@ -242,7 +234,6 @@ p {
 .btn:hover {
   transform: translateY(-1px);
 }
-
 .btn-primary {
   background: var(--orange-500);
   color: #201306;
@@ -269,7 +260,6 @@ p {
   max-width: 780px;
   margin-bottom: 36px;
 }
-
 .section-head p {
   margin: 0;
   color: var(--muted);
@@ -303,7 +293,6 @@ p {
   background: var(--surface);
   box-shadow: var(--shadow-sm);
 }
-
 .panel,
 .card {
   border-radius: var(--radius-md);
@@ -337,7 +326,6 @@ p {
   padding: 25px;
   transition: transform var(--transition), box-shadow var(--transition), border-color var(--transition);
 }
-
 .card:hover {
   transform: translateY(-2px);
   border-color: rgba(239, 139, 0, 0.42);
@@ -368,7 +356,6 @@ p {
 .card li + li {
   margin-top: 8px;
 }
-
 .card li::marker {
   color: var(--orange-600);
 }
@@ -396,7 +383,6 @@ p {
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 16px;
 }
-
 .person {
   min-height: 114px;
   padding: 20px;
@@ -421,7 +407,6 @@ p {
   font-size: 1.04rem;
   line-height: 1.35;
 }
-
 .join-box,
 .contact {
   display: grid;
@@ -448,7 +433,6 @@ footer {
 
 /* Página de Formación Pedagógica
    Comparte el mismo ancho y ritmo general que la portada. */
-
 .info-page .hero h1 {
   max-width: 920px;
   font-size: clamp(2.35rem, 6vw, 4.55rem);
@@ -479,7 +463,6 @@ footer {
 .card.wide {
   grid-column: 1 / -1;
 }
-
 .notice {
   margin-top: 20px;
   padding: 22px 24px;
@@ -509,7 +492,6 @@ footer {
   text-decoration-thickness: 1px;
   text-underline-offset: 3px;
 }
-
 .contact .actions {
   justify-content: flex-end;
 }
@@ -544,7 +526,6 @@ footer {
     justify-content: flex-start;
   }
 }
-
 @media (max-width: 640px) {
   :root {
     --header-height: 64px;
@@ -585,7 +566,6 @@ footer {
   .info-content {
     padding-top: 56px;
   }
-
   .hero {
     padding: 46px 0 50px;
   }
@@ -625,7 +605,6 @@ footer {
     width: 100%;
   }
 }
-
 @media (prefers-reduced-motion: reduce) {
   html {
     scroll-behavior: auto;
@@ -649,7 +628,6 @@ footer {
   margin-top: 32px;
   align-items: stretch;
 }
-
 .study-plan-image {
   margin: 0;
   padding: 12px;
@@ -672,7 +650,6 @@ footer {
   background: #fff;
   border-radius: calc(var(--radius-md) - 8px);
 }
-
 .study-plan-image figcaption {
   margin-top: 10px;
   color: var(--muted);
@@ -701,7 +678,6 @@ footer {
 .curriculum-card {
   height: 100%;
 }
-
 .year-badge {
   display: inline-flex;
   align-items: center;
@@ -730,7 +706,6 @@ footer {
   .curriculum-grid {
     grid-template-columns: 1fr;
   }
-
   .academic-plan-section {
     padding-top: 56px;
   }
@@ -755,7 +730,6 @@ footer {
     gap: 8px;
   }
 }
-
 /* Plan de estudios - Licenciatura HyS UNLZ */
 .course-hours {
   float: right;
@@ -788,7 +762,6 @@ footer {
   .professional-scope ul {
     columns: 1;
   }
-
   .course-hours {
     float: none;
     display: block;
@@ -821,7 +794,6 @@ footer .footer-row .brand {
 footer .footer-row .brand img {
   margin-inline: auto;
 }
-
 @media (max-width: 640px) {
   footer .footer-row {
     gap: 10px;
@@ -843,13 +815,11 @@ footer .footer-row .brand img {
     radial-gradient(circle at 92% 12%, rgba(239, 139, 0, 0.08), transparent 26%),
     var(--surface);
 }
-
 .academic-links {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 16px;
 }
-
 .academic-link-card {
   min-width: 0;
   display: grid;
@@ -869,7 +839,6 @@ footer .footer-row .brand img {
     border-color var(--transition),
     background var(--transition);
 }
-
 .academic-link-card:hover {
   transform: translateY(-2px);
   border-color: rgba(239, 139, 0, 0.48);
@@ -886,7 +855,6 @@ footer .footer-row .brand img {
   background: rgba(239, 139, 0, 0.13);
   font-size: 1.3rem;
 }
-
 .resource-type {
   display: block;
   margin-bottom: 4px;
@@ -915,7 +883,6 @@ footer .footer-row .brand img {
   font-weight: 900;
   transition: transform var(--transition);
 }
-
 .academic-link-card:hover .resource-arrow {
   transform: translateX(3px);
 }
@@ -934,4 +901,538 @@ footer .footer-row .brand img {
   .resource-arrow {
     display: none;
   }
+}
+
+/* Apartado La Copia Veloz — portada */
+.print-partner {
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+  background:
+    radial-gradient(circle at 8% 18%, rgba(33, 135, 189, 0.08), transparent 28%),
+    radial-gradient(circle at 92% 12%, rgba(239, 139, 0, 0.10), transparent 26%),
+    var(--surface-soft);
+}
+
+.print-partner-grid {
+  display: grid;
+  grid-template-columns: minmax(250px, 0.78fr) minmax(0, 1.22fr);
+  gap: 22px;
+  align-items: stretch;
+}
+
+.print-partner-info,
+.print-price-card {
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+  background: var(--surface);
+  box-shadow: var(--shadow-sm);
+}
+
+.print-partner-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 24px;
+  padding: 28px;
+}
+
+.print-logo-box {
+  min-height: 175px;
+  display: grid;
+  place-items: center;
+  padding: 22px;
+  border: 1px solid rgba(239, 139, 0, 0.18);
+  border-radius: calc(var(--radius-md) - 4px);
+  background: linear-gradient(145deg, #ffffff, var(--orange-50));
+}
+
+.print-logo-box img {
+  width: min(205px, 72%);
+  height: auto;
+}
+
+.print-partner-label,
+.print-price-kicker {
+  display: block;
+  color: var(--orange-700);
+  font-size: 0.75rem;
+  font-weight: 900;
+  letter-spacing: 0.08em;
+  line-height: 1.35;
+  text-transform: uppercase;
+}
+
+.print-partner-label {
+  margin-bottom: 6px;
+}
+
+.print-partner-info h3 {
+  margin-bottom: 8px;
+  font-size: 1.45rem;
+}
+
+.print-partner-info p {
+  margin: 0;
+  color: var(--muted);
+}
+
+.print-actions {
+  margin-top: 18px;
+}
+
+.print-price-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.print-price-card {
+  padding: 24px;
+}
+
+.print-price-card-featured {
+  grid-column: 1 / -1;
+  border-color: rgba(239, 139, 0, 0.40);
+  background:
+    radial-gradient(circle at 92% 20%, rgba(239, 139, 0, 0.14), transparent 30%),
+    var(--orange-50);
+}
+
+.print-price-kicker {
+  margin-bottom: 17px;
+}
+
+.print-price-row {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 12px 0;
+  border-top: 1px solid var(--line);
+}
+
+.print-price-row span {
+  color: var(--muted);
+  font-weight: 700;
+}
+
+.print-price-row strong {
+  flex: 0 0 auto;
+  color: var(--ink);
+  font-size: 1.28rem;
+  line-height: 1.2;
+  white-space: nowrap;
+}
+
+.print-price-row small {
+  color: var(--muted);
+  font-size: 0.72rem;
+  font-weight: 750;
+}
+
+.print-note {
+  margin: 20px 0 0;
+  padding: 15px 18px;
+  border-left: 4px solid var(--orange-500);
+  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+  background: rgba(255, 255, 255, 0.72);
+  color: var(--muted);
+  font-size: 0.92rem;
+}
+
+.print-note strong {
+  color: var(--ink);
+}
+
+@media (max-width: 860px) {
+  .print-partner-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .print-partner-info {
+    display: grid;
+    grid-template-columns: minmax(180px, 0.72fr) minmax(0, 1fr);
+    align-items: center;
+  }
+}
+
+@media (max-width: 640px) {
+  .print-partner-info,
+  .print-price-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .print-partner-info,
+  .print-price-card {
+    padding: 21px;
+  }
+
+  .print-price-card-featured {
+    grid-column: auto;
+  }
+
+  .print-actions .btn {
+    width: 100%;
+  }
+}
+
+@media (max-width: 430px) {
+  .print-price-row {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 4px;
+  }
+}
+
+/* Tablas de continuidad universitaria */
+.degree-section {
+  scroll-margin-top: calc(var(--header-height) + 24px);
+}
+
+.degree-section-head {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: 20px;
+  margin-bottom: 18px;
+}
+
+.degree-section-head h2 {
+  margin: 5px 0 0;
+  font-size: clamp(1.65rem, 3.5vw, 2.4rem);
+}
+
+.degree-count {
+  flex: 0 0 auto;
+  margin-bottom: 4px;
+  padding: 7px 12px;
+  border-radius: 999px;
+  background: var(--orange-100);
+  color: var(--orange-700);
+  font-size: 0.78rem;
+  font-weight: 900;
+}
+
+.degree-table-wrap {
+  overflow-x: auto;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+  background: var(--surface);
+  box-shadow: var(--shadow-sm);
+  scrollbar-width: thin;
+  scrollbar-color: var(--orange-400) transparent;
+}
+
+.degree-table-wrap:focus-visible {
+  outline: 3px solid rgba(33, 135, 189, 0.28);
+  outline-offset: 3px;
+}
+
+.degree-table {
+  width: 100%;
+  min-width: 820px;
+  border-collapse: collapse;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+.degree-table th,
+.degree-table td {
+  padding: 17px 18px;
+  border-bottom: 1px solid var(--line);
+  text-align: left;
+  vertical-align: middle;
+}
+
+.degree-table th {
+  background: var(--orange-50);
+  color: var(--orange-700);
+  font-size: 0.76rem;
+  font-weight: 950;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.degree-table th:nth-child(1),
+.degree-table td:nth-child(1) {
+  width: 34%;
+}
+
+.degree-table th:nth-child(2),
+.degree-table td:nth-child(2) {
+  width: 30%;
+}
+
+.degree-table tbody tr:last-child td {
+  border-bottom: 0;
+}
+
+.degree-table tbody tr:nth-child(even) {
+  background: var(--surface-soft);
+}
+
+.degree-table td:first-child,
+.degree-table td:nth-child(2) {
+  color: var(--ink);
+  font-weight: 760;
+}
+
+.table-muted {
+  color: var(--muted);
+  font-weight: 650;
+}
+
+.tag {
+  display: inline-flex;
+  align-items: center;
+  margin-right: 6px;
+  padding: 3px 8px;
+  border-radius: 999px;
+  background: rgba(239, 139, 0, 0.12);
+  color: var(--orange-700);
+  font-size: 0.72rem;
+  font-weight: 900;
+  line-height: 1.4;
+  white-space: nowrap;
+}
+
+.tag-public {
+  background: rgba(102, 180, 71, 0.14);
+  color: #3f7d2d;
+}
+
+@media (max-width: 860px) {
+  .degree-section-head {
+    align-items: flex-start;
+  }
+}
+
+@media (max-width: 640px) {
+  .degree-section-head {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .degree-count {
+    margin: 0;
+  }
+}
+
+/* Recursos v3 — continuidad universitaria unificada */
+.academic-link-card-wide {
+  grid-column: 1 / -1;
+}
+
+.continuity-page main {
+  padding-bottom: 72px;
+}
+
+.continuity-hero {
+  background:
+    radial-gradient(circle at 88% 16%, rgba(102, 180, 71, 0.14), transparent 28%),
+    radial-gradient(circle at 12% 14%, rgba(33, 135, 189, 0.10), transparent 24%),
+    linear-gradient(180deg, rgba(255, 255, 255, 0.18), rgba(255, 255, 255, 0));
+}
+
+.continuity-hero h1 {
+  max-width: 980px;
+}
+
+.continuity-hero p {
+  max-width: 860px;
+}
+
+.continuity-content {
+  padding-top: 10px;
+}
+
+.continuity-overview,
+.degree-section,
+.choosing-section,
+.detail-block {
+  margin-bottom: 72px;
+}
+
+.continuity-highlights {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 18px;
+  margin-bottom: 20px;
+}
+
+.continuity-note {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  gap: 16px;
+  align-items: start;
+  margin: 20px 0;
+  padding: 20px 22px;
+  border: 1px solid rgba(33, 135, 189, 0.18);
+  border-radius: var(--radius-md);
+  background: rgba(33, 135, 189, 0.07);
+}
+
+.continuity-note-icon {
+  width: 38px;
+  height: 38px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  background: var(--surface);
+}
+
+.continuity-note strong {
+  display: block;
+  margin-bottom: 3px;
+}
+
+.continuity-note p {
+  margin: 0;
+  color: var(--muted);
+}
+
+.compact-head {
+  margin-bottom: 22px;
+}
+
+.degree-table a {
+  color: var(--orange-700);
+  font-weight: 850;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+}
+
+.degree-row-highlight {
+  background: rgba(239, 139, 0, 0.055) !important;
+}
+
+.choice-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.choice-item {
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 18px 19px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-sm);
+  background: var(--surface-soft);
+  box-shadow: var(--shadow-sm);
+}
+
+.choice-item strong {
+  color: var(--ink);
+  font-size: 0.98rem;
+}
+
+.choice-item span {
+  color: var(--muted);
+  font-size: 0.9rem;
+  line-height: 1.45;
+}
+
+.detail-block {
+  scroll-margin-top: calc(var(--header-height) + 24px);
+  padding-top: 6px;
+}
+
+.detail-block + .detail-block {
+  padding-top: 54px;
+  border-top: 1px solid var(--line);
+}
+
+.detail-heading {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 24px;
+  margin-bottom: 24px;
+}
+
+.detail-heading h2 {
+  margin-bottom: 8px;
+}
+
+.detail-heading p {
+  max-width: 760px;
+  margin: 0;
+  color: var(--muted);
+}
+
+.detail-badge {
+  flex: 0 0 auto;
+  margin-bottom: 4px;
+  padding: 7px 12px;
+  border-radius: 999px;
+  background: var(--orange-100);
+  color: var(--orange-700);
+  font-size: 0.76rem;
+  font-weight: 900;
+}
+
+.detail-badge-public {
+  background: rgba(102, 180, 71, 0.14);
+  color: #3f7d2d;
+}
+
+.detail-contact {
+  margin-top: 28px;
+}
+
+.plan-extra-grid,
+.scope-cards {
+  margin-top: 20px;
+}
+
+.notice-warning {
+  border-left-color: #c47a00;
+  background: #fff8e8;
+}
+
+@media (max-width: 860px) {
+  .continuity-highlights,
+  .choice-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .detail-heading {
+    align-items: flex-start;
+  }
+}
+
+@media (max-width: 760px) {
+  .academic-link-card-wide {
+    grid-column: auto;
+  }
+}
+
+@media (max-width: 640px) {
+  .continuity-page main {
+    padding-bottom: 56px;
+  }
+
+  .continuity-overview,
+  .degree-section,
+  .choosing-section,
+  .detail-block {
+    margin-bottom: 52px;
+  }
+
+  .detail-heading {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .detail-badge {
+    margin: 0;
+  }
+
+  .continuity-note {
+    padding: 18px;
+  }
+
 }
